@@ -17,8 +17,8 @@ def predict(teks):
 
     rounded = [np.round(x) for x in predicted]
     for i in rounded:
-        if i == 1:
+        if i[0] == 1:
             return ("Sentimen Negatif")
-        else:
+        elif i[0] == 0:
             return ("Sentimen Positif")
         break    
