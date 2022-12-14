@@ -12,7 +12,7 @@ selenium==4.4.3
 streamlit==1.15.2
 tensorboard==2.10.1
 tensorboard-data-server==0.6.1
-tensorflow==2.3.0
+tensorflow==2.5.0
 tensorflow-datasets==1.2.0
 tensorflow-estimator==2.10.0
 tensorflow-gpu==2.10.0
