@@ -21,11 +21,11 @@ def predict(teks):
     padded_input = pad_sequences(sequences_input, maxlen=75, truncating='post')
     
     predicted = model.predict(padded_input)
-    return predicted
-#     rounded = np.round(predicted)
-#     for i in rounded:
-#         if i[0] == 0:
-#             return ("Sentimen Positif")
-#         elif i[0] == 1:
-#             return ("Sentimen Negatif")
-#         break    
+#     return predicted
+    rounded = np.round(predicted)
+    for i in rounded:
+        if i[0] == 0:
+            return ("Sentimen Positif")
+        elif i[0] == 1:
+            return ("Sentimen Negatif")
+        break    
