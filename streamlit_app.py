@@ -18,7 +18,7 @@ def main():
             
             sentimen = predict(text)
        
-            st.table(sentimen)
+            st.write(sentimen)
     else:
         st.write('')
 
