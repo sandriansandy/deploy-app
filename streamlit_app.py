@@ -3,7 +3,7 @@ import tensorflow as tf
 import time
 import numpy as np
 from tensorflow.keras.preprocessing.text import Tokenizer
-from tensorflow.keras.utils.timeseries_dataset_from_array import pad_sequences
+from keras.utils import pad_sequences
 
 model = tf.keras.models.load_model('model_ann.h5')
 def main():
