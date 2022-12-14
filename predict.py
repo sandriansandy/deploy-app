@@ -7,10 +7,10 @@ import numpy as np
 def predict(teks):
     tokenizer = Tokenizer(num_words=10000, oov_token="<OOV>")
     
-    tokenizer.fit_on_texts(input_list)
+    tokenizer.fit_on_texts(teks)
     word_index = tokenizer.word_index
     
-    sequences_input = tokenizer.texts_to_sequences(input_list)
+    sequences_input = tokenizer.texts_to_sequences(teks)
     padded_input = pad_sequences(sequences_input, maxlen=75, truncating='post')
     model = tf.keras.models.load_model('model_ann.h5')
     predicted = model.predict(padded_input)
