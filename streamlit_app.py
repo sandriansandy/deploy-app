@@ -3,10 +3,9 @@ import tensorflow as tf
 import time
 from tensorflow.keras.preprocessing.text import Tokenizer
 from keras.utils import pad_sequences
-import predict
+from predict import predict
 
-model = tf.keras.models.load_model('model_ann.h5')
-
+text_list = []
 
 def main():
     st.header('Prediksi Sentimen Ulasan New Star Cineplex Pasuruan')
@@ -18,8 +17,8 @@ def main():
             with st.spinner('Wait for it...'):
                 time.sleep(0.1)
                 st.success('Success!')
-                
-            sentimen = predict.predict(text)
+            
+            sentimen = predict(text_list.append(text))
             st.write(sentimen)
     else:
         st.write('')
