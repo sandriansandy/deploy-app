@@ -4,18 +4,20 @@ from tensorflow.keras.preprocessing.sequence import pad_sequences
 import tensorflow as tf
 import numpy as np
 
+model = tf.keras.models.load_model('model_ann.h5')
+
 def predict(teks):
-    tokenizer = Tokenizer(num_words=10000, oov_token="<OOV>")
+    tokenizer = Tokenizer(num_words=500, oov_token="<OOV>")
     
     tokenizer.fit_on_texts(teks)
     word_index = tokenizer.word_index
     
     sequences_input = tokenizer.texts_to_sequences(teks)
     padded_input = pad_sequences(sequences_input, maxlen=75, truncating='post')
-    model = tf.keras.models.load_model('model_ann.h5')
+    
     predicted = model.predict(padded_input)
 
-    rounded = [np.round(x) for x in predicted]
+    rounded = np.round(predicted)
     for i in rounded:
         if i[0] == 1:
             return ("Sentimen Negatif")
