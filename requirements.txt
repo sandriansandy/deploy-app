@@ -1,7 +1,6 @@
 
 alembic==1.8.1
 altair==4.2.0
-anaconda-client==1.11.0
 appdirs==1.4.4
 
 astor==0.8.1
@@ -20,7 +19,6 @@ charset-normalizer==2.1.1
 clyent==1.2.2
 commonmark==0.9.1
 comtypes==1.1.10
-conda==22.11.0
 
 constantly==15.1.0
 
