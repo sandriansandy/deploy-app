@@ -8,7 +8,7 @@ import numpy as np
 def process_input(input):
     tokenizer = Tokenizer(num_words=10000, oov_token="<OOV>")
     sequences_input = tokenizer.texts_to_sequences(input)
-    padded_input = pad_sequences(sequences_input, maxlen=75, truncating="post")
+    padded_input = pad_sequences(sequences_input, maxlen=75, truncating='pre')
     return padded_input
 
 
