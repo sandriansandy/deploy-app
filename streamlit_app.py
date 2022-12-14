@@ -23,7 +23,7 @@ def main():
                 st.success('Success!')
             
             tokenizer = Tokenizer(num_words = vocab_size, oov_token=oov_tok)    
-            sequences_input = tokenizer.texts_to_sequences(teks)
+            sequences_input = tokenizer.texts_to_sequences(text)
             padded_input = pad_sequences(sequences_input,maxlen=max_length, truncating=trunc_type)
             teks_df = model.predict(padded_input)
             rounded = [np.round(x) for x in predicted]
