@@ -17,8 +17,8 @@ def main():
                 st.success('Success!')
             
             sentimen = predict(text)
-            return sentimen
-#             st.write(sentimen)
+       
+            st.write(sentimen)
     else:
         st.write('')
 
