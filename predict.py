@@ -22,9 +22,10 @@ def predict(teks):
     predicted = model.predict(padded_input)
 #     return predicted
     rounded = np.round(predicted)
-    for i in rounded:
-        if i[0] == 0:
-            return ("Sentimen Positif")
-        elif i[0] == 1:
-            return ("Sentimen Negatif")
-        break    
+    return rounded
+#     for i in rounded:
+#         if i[0] == 0:
+#             return ("Sentimen Positif")
+#         elif i[0] == 1:
+#             return ("Sentimen Negatif")
+#         break    
