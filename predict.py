@@ -24,3 +24,4 @@ def predict(teks):
             return ("Sentimen Negatif")
         else:
             return ("Sentimen Positif")
+        break    
