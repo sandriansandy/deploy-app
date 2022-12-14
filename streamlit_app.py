@@ -1,6 +1,9 @@
 import streamlit as st
 import tensorflow as tf
 import time
+import numpy as np
+from tensorflow.keras.preprocessing.text import Tokenizer
+from tensorflow.keras.preprocessing.sequence import pad_sequences
 
 model = tf.keras.models.load_model('model_ann.h5')
 def main():
@@ -14,9 +17,18 @@ def main():
             with st.spinner('Wait for it...'):
                 time.sleep(0.1)
                 st.success('Success!')
-
-            teks_df = model.predict(text)
-            st.table(teks_df)
+                
+            sequences_input = tokenizer.texts_to_sequences(teks)
+            padded_input = pad_sequences(sequences_input,maxlen=max_length, truncating=trunc_type)
+            teks_df = model.predict(padded_input)
+            rounded = [np.round(x) for x in predicted]
+            for i in rounded:
+                if i == 1:
+                    print("Sentimen Negatif")
+                else:
+                    print("Sentimen Positif")
+                break
+            # st.table(teks_df)
     else:
         st.write('')
 
