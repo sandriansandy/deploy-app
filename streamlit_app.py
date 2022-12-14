@@ -13,7 +13,7 @@ def main():
             st.error('Cek kembali teks ulasan', icon="🚨")
         else:
             with st.spinner('Wait for it...'):
-                time.sleep(0.1)
+                time.sleep(2)
                 st.success('Success!')
             
             sentimen = predict(text)
