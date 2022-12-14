@@ -21,7 +21,7 @@ def main():
             tokenizer = Tokenizer(num_words = 10000, oov_token="<OOV>")    
             sequences_input = tokenizer.texts_to_sequences(text)
             padded_input = pad_sequences(sequences_input,maxlen=75, truncating="post")
-            teks_df = model.predict(padded_input)
+            predicted = model.predict(padded_input)
             rounded = [np.round(x) for x in predicted]
             for i in rounded:
                 if i == 1:
