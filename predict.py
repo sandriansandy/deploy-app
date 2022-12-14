@@ -6,13 +6,16 @@ import numpy as np
 
 model = tf.keras.models.load_model('model_ann.h5')
 list_teks = []
+word_index=[]
+with open("word_index.txt",'r') as indeks:
+    for word in indeks:
+        word_index.append(word)
+        
+tokenizer = Tokenizer(num_words=10000, oov_token="<OOV>")
+tokenizer.fit_on_texts(word_index)
+
 def predict(teks):
     list_teks.append(teks)
-    tokenizer = Tokenizer(num_words=500, oov_token="<OOV>")
-    
-    tokenizer.fit_on_texts(list_teks)
-    word_index = tokenizer.word_index
-    
     sequences_input = tokenizer.texts_to_sequences(list_teks)
     padded_input = pad_sequences(sequences_input, maxlen=75, truncating='post')
     
