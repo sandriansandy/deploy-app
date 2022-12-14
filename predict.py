@@ -16,7 +16,7 @@ def predict(teks):
     sequences_input = tokenizer.texts_to_sequences(input_list)
     padded_input = pad_sequences(sequences_input, maxlen=75, truncating='post')
     model = tf.keras.models.load_model('model_ann.h5')
-    predicted = model.predict(processed_input)
+    predicted = model.predict(padded_input)
 
     rounded = [np.round(x) for x in predicted]
     for i in rounded:
