@@ -5,8 +5,6 @@ from tensorflow.keras.preprocessing.text import Tokenizer
 from keras.utils import pad_sequences
 from predict import predict
 
-text_list = []
-
 def main():
     st.header('Prediksi Sentimen Ulasan New Star Cineplex Pasuruan')
     text = st.text_input('Masukkan Teks Ulasan', 'Bioskop sangat nyaman')
@@ -17,8 +15,7 @@ def main():
             with st.spinner('Wait for it...'):
                 time.sleep(0.1)
                 st.success('Success!')
-                
-            text_list.append(text)
+            
             sentimen = predict(text_list)
             st.write(sentimen)
     else:
