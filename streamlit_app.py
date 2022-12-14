@@ -18,9 +18,8 @@ def main():
             with st.spinner('Wait for it...'):
                 time.sleep(0.1)
                 st.success('Success!')
-
-            processed_input = predict.process_input(text)
-            predict.predict(processed_input)
+                
+            predict.predict(text)
             # st.table(teks_df)
     else:
         st.write('')
