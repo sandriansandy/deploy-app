@@ -5,9 +5,6 @@ import tensorflow as tf
 import numpy as np
 
 def predict(teks):
-    input_list = []
-    input_list.append(teks)
-    
     tokenizer = Tokenizer(num_words=10000, oov_token="<OOV>")
     
     tokenizer.fit_on_texts(input_list)
