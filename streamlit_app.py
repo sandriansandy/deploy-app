@@ -1,6 +1,6 @@
 import streamlit as st
 import tensorflow as tf
-from pytime import time
+import time
 
 model = tf.keras.models.load_model('model_ann.h5')
 def main():
