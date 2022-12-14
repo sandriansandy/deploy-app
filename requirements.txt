@@ -2,7 +2,6 @@ h5py==3.7.0
 keras==2.10.0
 numpy==1.23.5
 pandas==1.5.1
-protobuf==3.20.1
 pyarrow==10.0.1
 Sastrawi==1.0.1
 scikit-learn==1.1.3
