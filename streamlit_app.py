@@ -19,8 +19,8 @@ def main():
                 time.sleep(0.1)
                 st.success('Success!')
                 
-            teks_df = predict.predict(text)
-            st.table(teks_df)
+            sentimen = predict.predict(text)
+            st.write(sentimen)
     else:
         st.write('')
 
