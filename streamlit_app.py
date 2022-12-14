@@ -1,5 +1,6 @@
 import streamlit as st
 import tensorflow as tf
+import time
 
 model = tf.keras.models.load_model('model_ann.h5')
 def main():
@@ -14,8 +15,8 @@ def main():
                 time.sleep(0.1)
                 st.success('Success!')
 
-#             teks_df = model.predict(text)
-#             st.table(teks_df)
+            teks_df = model.predict(text)
+            st.table(teks_df)
     else:
         st.write('')
 
