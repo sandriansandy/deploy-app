@@ -16,8 +16,8 @@ def main():
                 time.sleep(0.1)
                 st.success('Success!')
             
-            sentimen = predict(text)
-            st.write(sentimen)
+            return sentimen = predict(text)
+#             st.write(sentimen)
     else:
         st.write('')
 
