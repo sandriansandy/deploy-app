@@ -17,8 +17,9 @@ def main():
             with st.spinner('Wait for it...'):
                 time.sleep(0.1)
                 st.success('Success!')
-            
-            sentimen = predict(text_list.append(text))
+                
+            text_list.append(text)
+            sentimen = predict(text_list)
             st.write(sentimen)
     else:
         st.write('')
