@@ -7,9 +7,11 @@ import numpy as np
 
 def process_input(input):
     tokenizer = Tokenizer(num_words=10000, oov_token="<OOV>")
-    sequences_input = tokenizer.texts_to_sequences(input)
-#     padded_input = pad_sequences(sequences_input, maxlen=75, truncating='pre')
-    return sequences_input
+    input_list = []
+    input_list.append(input
+    sequences_input = tokenizer.texts_to_sequences(input_list)
+    padded_input = pad_sequences(sequences_input, maxlen=75, truncating='pre')
+    return padded_input
 
 
 def predict(teks):
