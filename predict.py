@@ -12,11 +12,10 @@ with open("word_index.txt",'r') as indeks:
         word_index.append(word)
         
 tokenizer = Tokenizer(num_words=10000, oov_token="<OOV>")
-# tokenizer.fit_on_texts(word_index)
+tokenizer.fit_on_texts(word_index)
 
 def predict(teks):
     list_teks.append(teks)
-    tokenizer.fit_on_texts(list_teks)
     sequences_input = tokenizer.texts_to_sequences(list_teks)
     padded_input = pad_sequences(sequences_input, maxlen=75, truncating='post')
     
