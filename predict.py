@@ -13,7 +13,6 @@ with open("word_index.txt",'r') as indeks:
 tokenizer = Tokenizer(num_words=10000, oov_token="<OOV>")
 tokenizer.fit_on_texts(word_index)
 
-@st.cache
 def predict(teks):
     list_teks = []
     list_teks.append(teks)
