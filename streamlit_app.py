@@ -7,7 +7,7 @@ from predict import predict
 
 def main():
     st.header('Prediksi Sentimen Ulasan New Star Cineplex Pasuruan')
-    text = st.text_input('Masukkan Teks Ulasan', 'Bioskop sangat nyaman')
+    text = st.text_input('Masukkan Teks Ulasan', 'bangku bioskop banyak yang rusak')
     if st.button('Mulai Analisis'):
         if text.strip() == '':
             st.error('Cek kembali teks ulasan', icon="🚨")
