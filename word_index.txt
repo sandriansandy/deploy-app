@@ -1,933 +1,676 @@
-{'<OOV>': 1,
- 'film': 2,
- 'tempat': 3,
- 'tonton': 4,
- 'tiket': 5,
- 'bioskop': 6,
- 'tidak': 7,
- 'harga': 8,
- 'nyaman': 9,
- 'kurang': 10,
- 'bagus': 11,
- 'baru': 12,
- 'pasuruan': 13,
- 'minum': 14,
- 'gak': 15,
- 'layan': 16,
- 'kota': 17,
- 'lebih': 18,
- 'lumayan': 19,
- 'satu': 20,
- 'baik': 21,
- 'beli': 22,
- 'bersih': 23,
- 'sama': 24,
- 'jadi': 25,
- 'sangat': 26,
- 'suara': 27,
- 'studio': 28,
- 'mahal': 29,
- 'cukup': 30,
- 'fasilitas': 31,
- 'kursi': 32,
- 'toilet': 33,
- 'kalau': 34,
- 'murah': 35,
- 'orang': 36,
- 'makan': 37,
- 'banyak': 38,
- 'tayang': 39,
- 'banget': 40,
- 'sini': 41,
- 'kualitas': 42,
- 'parkir': 43,
- 'masuk': 44,
- 'buat': 45,
- 'perlu': 46,
- 'kunjung': 47,
- 'enak': 48,
- 'mau': 49,
- 'lah': 50,
- 'ruang': 51,
- 'kecil': 52,
- 'akhir': 53,
- 'tambah': 54,
- 'layar': 55,
- 'jam': 56,
- 'terlalu': 57,
- 'cineplex': 58,
- 'karyawan': 59,
- 'semoga': 60,
- 'tunggu': 61,
- 'paksa': 62,
- 'kalo': 63,
- 'aku': 64,
- 'paket': 65,
- 'putar': 66,
- 'pas': 67,
- 'pilih': 68,
- 'selalu': 69,
- 'lihat': 70,
- 'hari': 71,
- 'wajib': 72,
- 'jauh': 73,
- 'sesuai': 74,
- 'waktu': 75,
- 'rasa': 76,
- 'jadwal': 77,
- 'pesan': 78,
- 'tanggal': 79,
- 'cuman': 80,
- 'oke': 81,
- 'sayang': 82,
- 'duduk': 83,
- 'sekali': 84,
- 'beberapa': 85,
- 'belum': 86,
- 'buruk': 87,
- 'sedia': 88,
- 'ramah': 89,
- 'kecewa': 90,
- 'ringan': 91,
- 'sering': 92,
- 'antre': 93,
- 'jangkau': 94,
- 'luas': 95,
- 'cuma': 96,
- 'pop': 97,
- 'corn': 98,
- 'depan': 99,
- 'hati': 100,
- 'habis': 101,
- 'rusak': 102,
- 'dingin': 103,
- 'ac': 104,
- 'ubah': 105,
- 'dekat': 106,
- 'padahal': 107,
- 'datang': 108,
- 'puas': 109,
- 'jalan': 110,
- 'kasih': 111,
- 'jual': 112,
- 'sekarang': 113,
- 'new': 114,
- 'star': 115,
- 'mohon': 116,
- 'makin': 117,
- 'punya': 118,
- 'apa': 119,
- 'tengah': 120,
- 'minimal': 121,
- 'terus': 122,
- 'kamar': 123,
- 'mandi': 124,
- 'teater': 125,
- 'mungkit': 126,
- 'pegawai': 127,
- 'mantap': 128,
- 'pernah': 129,
- 'tugas': 130,
- 'buka': 131,
- 'bayar': 132,
- 'sedikit': 133,
- 'kupon': 134,
- 'banding': 135,
- 'kotor': 136,
- 'biar': 137,
- 'pekan': 138,
- 'air': 139,
- 'tingkat': 140,
- 'mbak': 141,
- 'mulai': 142,
- 'keluar': 143,
- 'tinggal': 144,
- 'besar': 145,
- 'terima': 146,
- 'makanan': 147,
- 'jangan': 148,
- 'sana': 149,
- 'semua': 150,
- 'ramai': 151,
- 'atur': 152,
- 'lama': 153,
- 'suka': 154,
- 'teh': 155,
- 'gedung': 156,
- 'omong': 157,
- 'kerja': 158,
- 'luar': 159,
- 'pertama': 160,
- 'aman': 161,
- 'gitu': 162,
- 'masalah': 163,
- 'kasir': 164,
- 'biasa': 165,
- 'beda': 166,
- 'meski': 167,
- 'berisik': 168,
- 'mineral': 169,
- 'kata': 170,
- 'paling': 171,
- 'saran': 172,
- 'kalian': 173,
- 'pintu': 174,
- 'bawah': 175,
- 'langgan': 176,
- 'kotak': 177,
- 'ganggu': 178,
- 'balik': 179,
- 'gambar': 180,
- 'musala': 181,
- 'lalu': 182,
- 'tanya': 183,
- 'lewat': 184,
- 'kok': 185,
- 'jaga': 186,
- 'sendiri': 187,
- 'cepat': 188,
- 'penuh': 189,
- 'cocok': 190,
- 'mati': 191,
- 'surabaya': 192,
- 'area': 193,
- 'kemudian': 194,
- 'lengkap': 195,
- 'dulu': 196,
- 'nilai': 197,
- 'jelek': 198,
- 'mending': 199,
- 'online': 200,
- 'nyata': 201,
- 'total': 202,
- 'salah': 203,
- 'indonesia': 204,
- 'respon': 205,
- 'pakai': 206,
- 'keluarga': 207,
- 'bilang': 208,
- 'beri': 209,
- 'whatsapp': 210,
- 'tera': 211,
- 'mudah': 212,
- 'jelas': 213,
- 'standar': 214,
- 'bagaimana': 215,
- 'tipu': 216,
- 'soal': 217,
- 'tahu': 218,
- 'lokasi': 219,
- 'kelas': 220,
- 'bareng': 221,
- 'lampu': 222,
- 'bukan': 223,
- 'kesana': 224,
- 'sopan': 225,
- 'masa': 226,
- 'harap': 227,
- 'teman': 228,
- 'profesional': 229,
- 'panjang': 230,
- 'rekomendasi': 231,
- 'suasana': 232,
- 'relatif': 233,
- 'tetap': 234,
- 'cari': 235,
- 'antar': 236,
- 'alih': 237,
- 'alas': 238,
- 'kadang': 239,
- 'gelap': 240,
- 'dolby': 241,
- 'sempit': 242,
- 'jagung': 243,
- 'mana': 244,
- 'seluruh': 245,
- 'doang': 246,
- 'sepi': 247,
- 'gini': 248,
- 'cara': 249,
- 'langsung': 250,
- 'utama': 251,
- 'khusus': 252,
- 'malang': 253,
- 'telepon': 254,
- 'lambat': 255,
- 'informasi': 256,
- 'empuk': 257,
- 'memang': 258,
- 'renovasi': 259,
- 'benah': 260,
- 'awal': 261,
- 'belakang': 262,
- 'rupiah': 263,
- 'ruko': 264,
- 'raya': 265,
- 'keren': 266,
- 'rawat': 267,
- 'maaf': 268,
- 'gabung': 269,
- 'coba': 270,
- 'manajemen': 271,
- 'entah': 272,
- 'kapan': 273,
- 'tahun': 274,
- 'tukar': 275,
- 'bahasa': 276,
- 'kembang': 277,
- 'kena': 278,
- 'maksimal': 279,
- 'alam': 280,
- 'malah': 281,
- 'penting': 282,
- 'pacar': 283,
- 'website': 284,
- 'siap': 285,
- 'hampir': 286,
- 'ikut': 287,
- 'kesini': 288,
- 'aneh': 289,
- 'tukang': 290,
- 'segera': 291,
- 'turut': 292,
- 'minggu': 293,
- 'untung': 294,
- 'lantai': 295,
- 'tahan': 296,
- 'struk': 297,
- 'nama': 298,
- 'konsumen': 299,
- 'bakal': 300,
- 'rapi': 301,
- 'teknisi': 302,
- 'komplain': 303,
- 'rumah': 304,
- 'nikmat': 305,
- 'dukung': 306,
- 'umum': 307,
- 'dilan': 308,
- 'musik': 309,
- 'warga': 310,
- 'media': 311,
- 'sosial': 312,
- 'hibur': 313,
- 'lebar': 314,
- 'tarik': 315,
- 'tampil': 316,
- 'redup': 317,
- 'susah': 318,
- 'patah': 319,
- 'maju': 320,
- 'atap': 321,
- 'salat': 322,
- 'kondisi': 323,
- 'dunia': 324,
- 'sistem': 325,
- 'kamu': 326,
- 'tarif': 327,
- 'jawa': 328,
- 'etika': 329,
- 'main': 330,
- 'kecerahan': 331,
- 'nyala': 332,
- 'termasuk': 333,
- 'kafe': 334,
- 'nomor': 335,
- 'pulang': 336,
- 'telat': 337,
- 'kadar': 338,
- 'takut': 339,
- 'ternyata': 340,
- 'bangun': 341,
- 'anak': 342,
- 'peduli': 343,
- 'jamin': 344,
- 'bintang': 345,
- 'monitor': 346,
- 'botol': 347,
- 'kelola': 348,
- 'minus': 349,
- 'nasi': 350,
- 'tenang': 351,
- 'google': 352,
- 'hujan': 353,
- 'kira': 354,
- 'hilang': 355,
- 'probolinggo': 356,
- 'malam': 357,
- 'terjangkau': 358,
- 'jatuh': 359,
- 'proyektor': 360,
- 'betul': 361,
- 'bijak': 362,
- 'naik': 363,
- 'jorok': 364,
- 'daftar': 365,
- 'sulit': 366,
- 'mata': 367,
- 'per': 368,
- 'dengar': 369,
- 'cenderung': 370,
- 'parah': 371,
- 'teriak': 372,
- 'milik': 373,
- 'bebas': 374,
- 'cgv': 375,
- 'kalah': 376,
- 'gratis': 377,
- 'sedang': 378,
- 'rujak': 379,
- 'selesai': 380,
- 'tua': 381,
- 'batas': 382,
- 'jumlah': 383,
- 'maupun': 384,
- 'bau': 385,
- 'rupa': 386,
- 'wilayah': 387,
- 'akses': 388,
- 'manfaat': 389,
- 'bca': 390,
- 'mobil': 391,
- 'duit': 392,
- 'batal': 393,
- 'samping': 394,
- 'ku': 395,
- 'kedap': 396,
- 'gede': 397,
- 'payah': 398,
- 'adem': 399,
- 'ayo': 400,
- 'senang': 401,
- 'atmos': 402,
- 'goyang': 403,
- 'bunyi': 404,
- 'bocor': 405,
- 'atas': 406,
- 'apek': 407,
- 'niat': 408,
- 'tiba': 409,
- 'kak': 410,
- 'sumpah': 411,
- 'segi': 412,
- 'santun': 413,
- 'baja': 414,
- 'kosong': 415,
- 'jarak': 416,
- 'gara': 417,
- 'panggil': 418,
- 'pikir': 419,
- 'ngerti': 420,
- 'rekrut': 421,
- 'hr': 422,
- 'latih': 423,
- 'ponsel': 424,
- 'obrol': 425,
- 'bentak': 426,
- 'situ': 427,
- 'jernih': 428,
- 'proses': 429,
- 'gebetan': 430,
- 'tutup': 431,
- 'tidur': 432,
- 'bangkrut': 433,
- 'evaluasi': 434,
- 'flush': 435,
- 'kloset': 436,
- 'temu': 437,
- 'libur': 438,
- 'kerumun': 439,
- 'hd': 440,
- 'kantor': 441,
- 'lindung': 442,
- 'buram': 443,
- 'selamat': 444,
- 'tiap': 445,
- 'kumuh': 446,
- 'ribet': 447,
- 'spiderman': 448,
- 'tadi': 449,
- 'setara': 450,
- 'tepat': 451,
- 'gagal': 452,
- 'hancur': 453,
- 'ambil': 454,
- 'sidoarjo': 455,
- 'poin': 456,
- 'kaget': 457,
- 'minta': 458,
- 'titik': 459,
- 'potong': 460,
- 'imax': 461,
- 'maret': 462,
- 'ulang': 463,
- 'adegan': 464,
- 'lelet': 465,
- 'alhasil': 466,
- 'capek': 467,
- 'balut': 468,
- 'darah': 469,
- 'menstruasi': 470,
- 'serasa': 471,
- 'benar': 472,
- 'kalang': 473,
- 'kencang': 474,
- 'langgar': 475,
- 'ria': 476,
- 'bikin': 477,
- 'konsentrasi': 478,
- 'bisnis': 479,
- 'diri': 480,
- 'camil': 481,
- 'betah': 482,
- 'keras': 483,
- 'bahkan': 484,
- 'masing': 485,
- 'kentang': 486,
- 'sebut': 487,
- 'istirahat': 488,
- 'belah': 489,
- 'khawatir': 490,
- 'tren': 491,
- 'tunjuk': 492,
- 'arah': 493,
- 'keliling': 494,
- 'cekat': 495,
- 'booming': 496,
- 'promo': 497,
- 'fruit': 498,
- 'bunda': 499,
- 'pasrah': 500,
- 'sempat': 501,
- 'tata': 502,
- 'kompetitor': 503,
- 'tak': 504,
- 'banner': 505,
- 'usah': 506,
- 'bawa': 507,
- 'noda': 508,
- 'interior': 509,
- 'bangku': 510,
- 'aadc': 511,
- 'cantum': 512,
- 'kontras': 513,
- 'lcd': 514,
- 'kafetaria': 515,
- 'putih': 516,
- 'panas': 517,
- 'strategis': 518,
- 'jember': 519,
- 'menu': 520,
- 'peta': 521,
- 'hadap': 522,
- 'ber': 523,
- 'akal': 524,
- 'jenak': 525,
- 'lupa': 526,
- 'alternatif': 527,
- 'gelegar': 528,
- 'toko': 529,
- 'senyum': 530,
- 'sambung': 531,
- 'besok': 532,
- 'foto': 533,
- 'samar': 534,
- 'rata': 535,
- 'indah': 536,
- 'kantong': 537,
- 'tangga': 538,
- 'stereo': 539,
- 'sedih': 540,
- 'bekas': 541,
- 'lingkung': 542,
- 'inti': 543,
- 'jumbo': 544,
- 'pahit': 545,
- 'jurrasic': 546,
- 'eluh': 547,
- 'p': 548,
- 'ppkm': 549,
- 'jamur': 550,
- 'vakum': 551,
- 'pandemi': 552,
- 'sarana': 553,
- 'saring': 554,
- 'cegah': 555,
- 'sebar': 556,
- 'covid': 557,
- 'cek': 558,
- 'suhu': 559,
- 'hand': 560,
- 'sanitizer': 561,
- 'susun': 562,
- 'kkn': 563,
- 'desa': 564,
- 'kubur': 565,
- 'malas': 566,
- 'bocah': 567,
- 'sim': 568,
- 'tobat': 569,
- 'donk': 570,
- 'rakyat': 571,
- 'asal': 572,
- 'sepupu': 573,
- 'aladdin': 574,
- 'impresi': 575,
- 'rengut': 576,
- 'caci': 577,
- 'maki': 578,
- 'komunikasi': 579,
- 'tk': 580,
- 'erti': 581,
- 'pasif': 582,
- 'pihak': 583,
- 'contoh': 584,
- 'selektif': 585,
- 'tekan': 586,
- 'paham': 587,
- 'senter': 588,
- 'notifikasi': 589,
- 'saling': 590,
- 'tegur': 591,
- 'sungguh': 592,
- 'perihal': 593,
- 'nanyak': 594,
- 'gubris': 595,
- 'temennya': 596,
- 'gilir': 597,
- 'ngobrol': 598,
- 'posisi': 599,
- 'fantastic': 600,
- 'beasts': 601,
- 'secrets': 602,
- 'dumbledore': 603,
- 'putus': 604,
- 'kru': 605,
- 'cctv': 606,
- 'sepele': 607,
- 'lancang': 608,
- 'loket': 609,
- 'rugi': 610,
- 'offline': 611,
- 'tix': 612,
- 'id': 613,
- 'tersedia': 614,
- 'kaca': 615,
- 'terang': 616,
- 'asuh': 617,
- 'astaga': 618,
- 'mentang': 619,
- 'platform': 620,
- 'jenis': 621,
- 'kondusif': 622,
- 'super': 623,
- 'tombol': 624,
- 'intip': 625,
- 'harta': 626,
- 'karun': 627,
- 'ambang': 628,
- 'alangkah': 629,
- 'staf': 630,
- 'turun': 631,
- 'klub': 632,
- 'wajar': 633,
- 'frestea': 634,
- 'aplikasi': 635,
- 'sistematis': 636,
- 'taat': 637,
- 'olah': 638,
- 'poster': 639,
- 'belaka': 640,
- 'pindai': 641,
- 'tegas': 642,
- 'mungkin': 643,
- 'pingin': 644,
- 'transmart': 645,
- 'saut': 646,
- 'bicara': 647,
- 'tampak': 648,
- 'wajah': 649,
- 'benci': 650,
- 'komen': 651,
- 'padang': 652,
- 'bobrok': 653,
- 'sandar': 654,
- 'kaki': 655,
- 'selonjor': 656,
- 'terjemah': 657,
- 'posting': 658,
- 'instagram': 659,
- 'seng': 660,
- 'lobi': 661,
- 'berhasil': 662,
- 'pelihara': 663,
- 'aroma': 664,
- 'gibah': 665,
- 'fleksibel': 666,
- 'dm': 667,
- 'balas': 668,
- 'operator': 669,
- 'ahli': 670,
- 'kredit': 671,
- 'efisien': 672,
- 'fungsi': 673,
- 'perdana': 674,
- 'difabel': 675,
- 'kuota': 676,
- 'resepsionis': 677,
- 'kuat': 678,
- 'ledak': 679,
- 'getar': 680,
- 'denging': 681,
- 'pompa': 682,
- 'maksud': 683,
- 'sensor': 684,
- 'captain': 685,
- 'marvel': 686,
- 'penasaran': 687,
- 'berapa': 688,
- 'jasa': 689,
- 'dumeh': 690,
- 'kang': 691,
- 'lempar': 692,
- 'terap': 693,
- 'sebal': 694,
- 'keburu': 695,
- 'rujuk': 696,
- 'becek': 697,
- 'cewek': 698,
- 'mual': 699,
- 'ingat': 700,
- 'zaman': 701,
- 'avengers': 702,
- 'suami': 703,
- 'nekar': 704,
- 'suruh': 705,
- 'rombong': 706,
- 'sisa': 707,
- 'blass': 708,
- 'lumur': 709,
- 'sampah': 710,
- 'buang': 711,
- 'segar': 712,
- 'liar': 713,
- 'baju': 714,
- 'pesing': 715,
- 'judes': 716,
- 'lapar': 717,
- 'alamo': 718,
- 'pucuk': 719,
- 'fokus': 720,
- 'sinar': 721,
- 'matahari': 722,
- 'silau': 723,
- 'cahaya': 724,
- 'tajam': 725,
- 'kritik': 726,
- 'sabar': 727,
- 'selfie': 728,
- 'akibat': 729,
- 'lalang': 730,
- 'budaya': 731,
- 'diam': 732,
- 'privasi': 733,
- 'sadar': 734,
- 'diskusi': 735,
- 'anjur': 736,
- 'sabtu': 737,
- 'eksis': 738,
- 'pinggir': 739,
- 'pelanggan': 740,
- 'urus': 741,
- 'joker': 742,
- 'asyik': 743,
- 'serentak': 744,
- 'mancanegara': 745,
- 'ganti': 746,
- 'bentar': 747,
- 'pixel': 748,
- 'karcis': 749,
- 'kabupaten': 750,
- 'buah': 751,
- 'jawab': 752,
- 'cinta': 753,
- 'unggul': 754,
- 'video': 755,
- 'fantastis': 756,
- 'pusat': 757,
- 'kendara': 758,
- 'stasiun': 759,
- 'kereta': 760,
- 'api': 761,
- 'terminal': 762,
- 'terdapat': 763,
- 'negeri': 764,
- 'atm': 765,
- 'motor': 766,
- 'tipe': 767,
- 'warna': 768,
- 'akurat': 769,
- 'karuan': 770,
- 'pecah': 771,
- 'ketimbang': 772,
- 'cerah': 773,
- 'lega': 774,
- 'situs': 775,
- 'sinkron': 776,
- 'masyarakat': 777,
- 'hormat': 778,
- 'bolak': 779,
- 'tunduk': 780,
- 'kepala': 781,
- 'pungut': 782,
- 'ibadah': 783,
- 'taman': 784,
- 'saing': 785,
- 'kendala': 786,
- 'modus': 787,
- 'sila': 788,
- 'mcem': 789,
- 'stok': 790,
- 'bulan': 791,
- 'isi': 792,
- 'sabun': 793,
- 'kedai': 794,
- 'kini': 795,
- 'elegan': 796,
- 'asli': 797,
- 'subjektif': 798,
- 'antusias': 799,
- 'bonus': 800,
- 'listrik': 801,
- 'deras': 802,
- 'pukul': 803,
- 'monopoli': 804,
- 'jarang': 805,
- 'aktif': 806,
- 'daerah': 807,
- 'restoran': 808,
- 'tuju': 809,
- 'bangil': 810,
- 'puasa': 811,
- 'kunci': 812,
- 'kancing': 813,
- 'smp': 814,
- 'bln': 815,
- 'halaman': 816,
- 'dana': 817,
- 'layaka': 818,
- 'resmi': 819,
- 'tnya': 820,
- 'senin': 821,
- 'tersebut': 822,
- 'meja': 823,
- 'kayu': 824,
- 'triplek': 825,
- 'adik': 826,
- 'horor': 827,
- 'bila': 828,
- 'rebut': 829,
- 'titip': 830,
- 'barang': 831,
- 'milly': 832,
- 'mamet': 833,
- 'ketawa': 834,
- 'andal': 835,
- 'internet': 836,
- 'alami': 837,
- 'sangar': 838,
- 'ceroboh': 839,
- 'shower': 840,
- 'siang': 841,
- 'tol': 842,
- 'kontrol': 843,
- 'karpet': 844,
- 'remah': 845,
- 'uang': 846,
- 'aliran': 847,
- 'mewah': 848,
- 'urutan': 849,
- 'bener': 850,
- 'berangkat': 851,
- 'mangkujiwo': 852,
- 'lepas': 853,
- 'penat': 854,
- 'modern': 855,
- 'komplit': 856,
- 'magrib': 857,
- 'mepet': 858,
- 'kumpul': 859,
- 'mudi': 860,
- 'lawas': 861,
- 'domisili': 862,
- 'lumajang': 863,
- 'pergi': 864,
- 'mall': 865,
- 'lahan': 866,
- 'ucap': 867,
- 'sahabat': 868,
- 'ulasan': 869,
- 'singkat': 870,
- 'rada': 871,
- 'doankdan': 872,
- 'hobbs': 873,
- 'shaw': 874,
- 'udara': 875,
- 'selama': 876,
- 'lipat': 877,
- 'jaring': 878,
- 'sambut': 879,
- 'sinis': 880,
- 'patut': 881,
- 'acung': 882,
- 'jempol': 883,
- 'agustus': 884,
- 'asik': 885,
- 'letak': 886,
- 'rekreasi': 887,
- 'baharu': 888,
- 'macet': 889,
- 'pecinta': 890,
- 'tinggi': 891,
- 'hipster': 892,
- 'taraf': 893,
- 'nasional': 894,
- 'butuh': 895,
- 'pasar': 896,
- 'sukses': 897,
- 'ukur': 898,
- 'legawa': 899,
- 'asri': 900,
- 'tangan': 901,
- 'datar': 902,
- 'nonton': 903,
- 'istri': 904,
- 'hemat': 905,
- 'kaulah': 906,
- 'pengap': 907,
- 'bahan': 908,
- 'supel': 909,
- 'kreatif': 910,
- 'mdhan': 911,
- 'murid': 912,
- 'sampek': 913,
- 'wifi': 914,
- 'saji': 915,
- 'salon': 916,
- 'pokok': 917,
- 'elit': 918,
- 'french': 919,
- 'fries': 920,
- 'seru': 921,
- 'licin': 922,
- 'konsisten': 923,
- 'kagum': 924,
- 'jebol': 925,
- 'representatif': 926,
- 'sejuk': 927,
- 'sofa': 928,
- 'anjlok': 929,
- 'sembunyi': 930,
- 'bangunan': 931,
- 'permata': 932,
- 'meskipun': 933}
+minimal studio kasih lampu redup tangga mau makan pop corn susah ruang sangat gelap tidak lampu kecil satu suara tidak stereo dolby atmos kursi sempit banget sering goyang goyang bunyi mau patah maju terus bioskop kota pasuruan
+ubah depan harga lebih mahal bioskop maju
+musala sedih atap bocor semoga bukan bekas kamar mandi atas lingkung musala kotor oke lah inti lihat film sini waktu putar dekat waktu salat omong omong kursi teater perlu rawat biar tidak apek
+harga tiket hari kerja akhir pekan tambah air mineral kondisi bioskop kurang bersih makan jual kesana pop corn jagung jumbo harga rasa pahit sini mau tonton tunggu orang baru putar film semoga tingkat bersih
+semoga tingkat layan
+jadi beberapa hari lalu niat hati tonton jurrasic dunia tiba sana kata mbak tiket maaf tiket belum jual tonton belum orang oke tunggu beberapa tanya kata mbak maaf kak film mulai lah rasa baru belum lebih jadwal tayang sumpah bioskop paling jelek segi layan eluh mbak gak sopan santun
+mana tiket mahal mending luar kota kalau mau tonton bioskop tonton sini tiket mahal kualitas p
+segi layar film baja jadi
+tidak pesan online sistem antre buruk nyata banyak kursi kosong bioskop waktu habis antre lewat jam tayang
+satu tempat tonton pasuruan harga jangkau lah sekarang wajib beli minum gabung sama tiket jadi total
+ruang tonton lumayan lah film baru parkir luas
+sayang toilet kotor
+pertama waktu coba new star cineplex pasuruan masa ppkm seluruh tidak buruk saran mohon hati kondisi kursi mulai jamur mungkit vakum pandemi sarana saring cegah sebar covid cek suhu sedia hand sanitizer mohon sedia makin aman tempat duduk harap susun jarak
+film baru kualitas suara
+layan buruk manajemen buruk pegawai buruk semua buruk lebih baik tonton film baja bioskop kamu ramai gara gara film kkn desa tarif doang sepi kubur malas kalau layan gitu mending jauh jauh keluar kota sini kalau bocah tonton sini gak punya sim mau keluar kota
+suara buruk
+tiket mahal wajib beli minum padahal kualitas jelek banget sumpah entah kapan mau tobat bioskop lebih murah kualitas mantap gak sini saran harga sesuai kualitas donk kasih rakyat pasuruan
+kunjung asal luar kota pasuruan tahun lalu kunjung bioskop sama sepupu tinggal pasuruan tonton film aladdin pertama impresi bioskop sangat buruk tukar tiket minum karyawan tidak tinggal tempat panggil lah karyawan sana datang karyawan rengut salah apa caci maki bahasa jawa pikir gak ngerti omong apa komunikasi bahasa indonesia maaf pernah tinggal sini masa tk sangat erti apa kata bahasa jawa pasif pihak manajemen bioskop belum atur karyawan lah rekrut karyawan hr kembang pegawai latih contoh lebih selektif rekrut karyawan sangat tekan karyawan kena etika gak kota kota besar kok paham sopan santun
+pertama tonton sini baik dunia bioskop tonton main ponsel kecerahan maksimal senter nyala sana sini suara notifikasi ponsel saling obrol tidak tegur pegawai sungguh alam tonton sangat puas sekali banget maksimal perihal harga termasuk minum lah
+layan buruk banget nanyak pegawai malah gak gubris malah enak omong sama temennya gilir bentak gak terima padahal situ salah kamu kerja bukan kafe punya pegawai gak ramah lebih penting ngobrol mending keluar kalian posisi kerja layan nomor bukan gini cara kerja kalian
+waktu mau tonton fantastic beasts secrets dumbledore putus tonton jam sesuai jadwal new star cineplex pasuruan mau beli tiket belum beli tonton minimal kru tugas saran tunggu jam tayang tiba tidak tonton datang akhir tidak jadi tonton pulang rasa kecewa
+datang telat pas film mulai tunggu teman pas mau masuk tidak jaga sama sekali lihat pintu mungkit jaga nyata tidak respon buka sendiri pintu studio cctv pakai buat penting sepele hati biar kunjung gak lancang
+akhir pekan tonton bioskop antre jam gak layan mulai jam nyata masalah bioskop jadwal ubah semua sangat kecewa kerja semoga lebih profesional depan
+lumayan kalau kadar tonton satu satu tayang baru saran mungkit layar lebih jernih tambah tempat makan
+fasilitas sangat kurang puas loket tiket cuma proses beli tiket lama antre panjang paksa tonton sini pasuruan tidak bioskop baik suara sangat lama tonton film tidak suara rugi bayar
+makin bagus new star cineplex pasuruan makin hari makin ramai ruang tunggu toilet jual pop corn makanan ringan ringan rekomendasi banget buat tonton sama pacar gebetan keluarga teman studio jadi gak perlu takut habis tempat duduk
+harga jangkau
+pernah kesana jam pesan offline ternyata tutup pegawai tidur bawah tempat kasir biasa pesan beli tiket bangun bilang buka jam padahal jadwal tonton jam mohon baik layan tidak layan pesan tiket online tix id website jadi kesana langsung layan tersedia siap terima langgan datang kapan pintu kaca depan beri terang buka pas masuk beli tiket tidak orang sama sekali tidak layan mohon baik
+jual tiket gak niat kerja masa film mulai jam tiket baru jual jam kerja asuh anak astaga kapan bangkrut bioskop mentang cuma satu pasuruan layan jadi gak peduli
+sedia platform tiket jenis antre kondusif sesuai jam buka jam tayang film waktu manajemen evaluasi utama nyaman langgan terima kasih
+layan kurang bagus
+makan minum super mahal gak enak sama sekali paksa gak pilih bioskop pasuruan bioskop pasuruan
+satu satu bioskop kota pasuruan tempat nyaman parkir luas suasana studio bagus nyaman film film tanggal
+tanya tanya jadwal film lewat whatsapp cepat respon
+kotor kursi rusak toilet sangat kotor tombol flush rusak kloset intip temu harta karun ambang
+tempat nyaman perlu baik layan tiket sedia makanan ringan kualitas layar khusus kualitas layar lebih baik
+kurang suka sama layan terus tiket sering ubah harga libur rasa harga tiket akhir pekan tingkat layan tiket
+jangan tonton sini mending malang harga tiket hampir sama fasilitas nyaman tonton film jamin
+alangkah baik pesan online mau pesan tiket kerumun banget situ tiket habis kecewa pesan online biar gak kerumun gak kecewa datang kesana nyata habis
+lumayan bintang layar monitor bioskop gak penuh hd
+kecewa banget sama layan pertama kecewa sama layan bioskop staf depan kantor sangat tidak profesional
+harga tiket relatif mahal coba turun sedikit lebih ramai botol minum klub rasa tidak wajar kota pasuruan lebih baik sedia dingin minum frestea dingin
+ac kurang dingin perlu kembang lalu telepon whatsapp pesan tiket lalu aplikasi buat sendiri perlu sistem pesan tonton sistematis nyaman pesan tiket taat atur masuk peduli lindung olah jadi poster belaka banyak kunjung masuk pindai peduli lindung kurang tegas kelola kunjung ikut atur tingkat rasa nyaman aman kunjung
+akhir kesini waktu sama tahun minimal layan mungkin sekarang lebih baik pingin kapan tonton kesini
+harga tiket mahal layar buram jauh lebih bagus transmart suara minus banget
+layan sangat tidak puas pernah telat gak masuk tugas saut bawah gak sopan kalau gak masuk tidak masalah layan jangan bicara bawah tidak tampak wajah biar lihat sopan sedikit
+layan buruk sangat lambat tidak informasi jam buka tiket kunjung antre
+mohon maaf bukan benci komen harga tera sama bayar beda layar harga tiket bayar tambah minum teh kotak orang bayar jadi bayar lumayan buat beli nasi padang oke gitu doang selamat tinggal
+mahal doang fasilitas tetap jelek bobrok
+tonton sini rasa nyaman tempat duduk lumayan besar sandar empuk tempat kaki luas selonjor buat tonton jadi tenang nyaman
+studio ac tidak dingin bawah kursi sangat kotor
+terjemah google baik omong omong minus tiket masalah tidak cocok apa posting instagram lebih
+studio oke toilet mohon bersih tiap
+bioskop sangat aneh beli minum harga tidak sesuai nyaman tonton hujan suara atap seng ganggu tonton sering mati lampu
+toilet kumuh kloset rusak lobi kurang nyaman
+langgan layan sangat buruk jadwal tidak sesuai tera website tonton sesuai jadwal ribet
+bioskop satu kota pasuruan cukup nyaman aman cuman kurang dingin ruang seluruh bagus tempat
+datang baru berhasil tonton spiderman pertama balik pelihara omong omong baru masuk studio memang langsung aroma apek gitu
+karyawan tukang gibah kira gak ngerti bahasa jawa apa
+sangat tidak ramah kalo bioskop mending kesana
+tempat segera renovasi gelap kotor sempit kursi banyak rusak new star cineplex bagus luas tempat harga fasilitas benah satu hilang atur minimal orang baru film putar jauh mau kota tonton jadi kecewa gak jadi tonton atur toilet kotor apa gak tugas bersih satu minum paksa beli padahal fleksibel
+respon lalu dm whatsapp tidak balas
+ac kurang dingin tadi layar mati mati terus kurang siap
+tugas tiket sering tidak tempat harga setara bioskop surabaya layan jauh beda
+layan baik kurang makanan ringan
+tempat sangat nyaman
+operator ahli tayang film lampu rasa mulai kredit film habis
+bioskop nyaman cocok tonton film bioskop jarak dekat probolinggo mudah efisien waktu
+bagus ruang tunggu lumayan kalo studio kurang turut studio tidak fungsi
+tidak tepat waktu jadwal tayang jadwal tera lambat lebih
+film cukup baru meski biasa perdana telat fasilitas cukup tidak fasilitas difabel
+layan buruk tidak pesan kasir banyak
+sering banget gagal tonton kurang penuh kuota minimal buat tayang orang padahal
+bioskop layan hancur hancur hati
+harga tiket cukup murah
+tempat lumayan
+cocok buat habis malam minggu pilih film baru
+etika resepsionis kurang lebih baik sopan terima kasih
+tiket mahal paksa buat beli minum lumayan kalau orang kalau tidak mau minum gak ambil tidak masalah kata kasir tetap bayar mau bangkrut gak kuat bayar karyawan cari untung jalan apa mending tonton sidoarjo
+bagus poin area pasuruan terjangkau tidak sangat bagus poin tiket tengah pekan jangan kaget kalo minta bayar wajib beli minum sana jatuh lebih mahal tiket tengah pekan titik layar jadi lebih baik suara pas suara ledak suara getar suara denging entah proyektor pompa air luar lantai bunyi pas jalan ganggu banget pas orang baru datang pas film mulai sangat kecewa main potong film tidak maksud sensor tonton captain marvel imax tanggal maret tonton ulang sini tanggal maret lihat adegan hilang penasaran kira kira berapa total potong banyak baik biar tidak jadi sedia jasa dumeh terima kasih
+alam pas tanya kok kang tiket jelas gak baik baik kupon minum lempar
+satu satu bioskop tahan kota pasuruan tidak pilih tempat kota mau gak mau kalau tonton film baru sini tempat standar bioskop kota layan sangat jelek entah bagaimana standar proses terima karyawan sini tidak latih terap kerja karyawan jelas banyak kunjung rasa sebal layan bioskop kota layan lelet karyawan bioskop layan makan obrol sendiri antar karyawan keburu film main alhasil masuk studio lambat lelet semoga lebih profesional
+baru bioskop buat capek hati pertama datang tidak tonton satu aku akhir gak tayang aku balik pulang gak jadi tonton terus beberapa hari kemudian aku balik lumayan banyak tonton tipu aku beli tiket terus mbak tanya mau minum apa aku bilang tidak perlu mbak betul habis makan mbak bilang sama minum gak sama minum harga sama mbak oke aku pilih teh kotak struk total nama tipu struk tiket sama minum beda padahal harga tiket cuman aku beli tiket total cuma nama paksa konsumen cara tipu memang bijak bagaimana lama aku tonton mana gak pernah gini gak bakal balik kalo cara gini
+tempat nyaman studio kurang luas
+layan kurang puas tukang parkir kurang ramah
+suara kurang mantap belum dolby atmos
+satu bioskop kota pasuruan lumayan jadi tempat rujuk tonton film baru tempat bersih toilet standar
+bijak beli tiket wajib beli air minum sangat kecewa
+tambah karyawan layan sangat kurang semoga tingkat
+harga tiket makin hari makin naik kualitas makin buruk kaget banget pas masuk studio dekat pintu masuk nyata bocor lantai jadi becek kamar mandi cewek kotor banget jorok mual lihat kamar mandi
+ingat banget zaman tonton avengers sama suami surabaya selalu habis tiket nekar tonton sini beli tiket studio kalo gak salah kemudian suruh daftar mau alih studio awal pesan kursi pikir alih sesuai kursi pertama beli tiket nyata gak alas rombong kursi sisa aneh harga tiket layan gak blass
+terus toilet banyak balut lumur darah menstruasi apa gak tugas bersih sampah penuh gak buang akhir balut darah segar menstruasi liar toilet baju pesing
+tempat bagus rapi bersih
+sayang layan baik
+buruk layan kasir judes sulit langgan
+layan kurang baik jam buka lambat
+semoga tahan kota pasuruan harga relatif mahal kunjung tonton beli minum
+hari hari akhir tonton new star cineplex layar studio kurang enak mata gelap kualitas kurang bagus harga tiket
+sekarang kalau beli tiket orang lebih beli tiket minimal tayang orang
+tempat lumayan lah toilet bersih pas lihat belakang gedung kurang enak lihat jauh lumayan lah tempat duduk lumayan enak lah film baru meski tonton cuma beberapa orang film tetap putar suara kurang bagus suka soal ac dingin banget serasa tidur waktu pas aku kesana sama tepat malam minggu jadi ramai banget enak kalo lapar jual makan sama minum pas aku beli pop corn jagung sana gitu benar enak masa tidak rasa rasa informasi harga pop corn kalo belum ubah sekarang selamat tonton
+kurang suka soal beli tiket wajib tambah tukar minum alamo teh pucuk
+tempat nyaman tidak terlalu banyak orang jadi tonton lebih fokus
+tempat lumayan cuma sayang pintu keluar langsung kena sinar matahari silau mata jadi ruang putar film cahaya redup toilet mohon baik lebih aman terima kasih
+tarif cukup murah kalang tengah bawah
+fasilitas toilet musala sedia bersih
+kualitas film rasa kurang gambar kurang tajam tidak terlalu hd kemudian beberapa adegan suara per film tidak dengar jelas waktu tonton film spiderman sangat kurang puas tonton
+kualitas suara banget kecil cenderung mati akhir lebih parah teknisi baik berisik teriak kencang banget teknisi satu ruang monitor masa buat atur jangan berisik langgar sendiri kalian ganggu tonton banget suara suara kecil tambah ria kalian bikin gak konsentrasi tonton punya atur sedikit lah semoga jadi hati milik bisnis depan
+tidak maju tidak mau terima kritik saran
+tempat parkir luas sabar antre kalo pas akhir pekan kunjung lumayan ramai fasilitas lumayan lengkap mulai kamar mandi musala ruang tunggu tempat selfie mungkit tambah beberapa kursi kasih buat kunjung tunggu diri akibat gak tempat duduk film tayang baru
+harga relatif jangkau
+satu tempat tonton bioskop pasuruan tempat enak toilet bersih nyaman makan pop corn jagung beberapa camil kecil minum mulai air mineral ringan minum fasilitas bioskop lumayan
+harga tiket cenderung murah
+layan pegawai ramah betah sana lebih semua mantap
+besar tidak bioskop kecewa tiket wajib kunjung beli tiket paket minum tidak semua orang kunjung minum beli minum kunjung hari minggu tiket film harga rupiah paksa beli tiket paket minum harga rupiah minum pilih air mineral botol teh kotak komplain kalau tidak pakai minum bagaimana tugas bilang tidak padahal depan tiket beri tahu kena harga film harga paket paket minum baik kunjung bebas pilih beli tiket film tiket paket paket minum
+kursi bioskop keras kurang nyaman jadi mohon hati lah new star cineplex pasuruan
+tempat duduk enak layar kurang jelas kalo banding tonton cgv tingkat orang lalu lalang banyak banget bahkan makan pesan terus antar tengah tengah film pas tonton budaya tonton diam harga privasi masing masing belum cukup sadar tonton orang orang banyak diskusi berisik
+bagus kota pasuruan kalo banding sama bioskop cgv jelas kalah harga terlalu mahal kota kecil pasuruan makan pop corn kentang tiket gabung minum
+bagus bioskop parkir sangat luas harga tiket cepat ubah anjur pesan langsung tempat sedia makan minum toilet gratis jam tayang tengah malam hari sabtu
+layan tiket kurang etika
+satu satu bioskop pasuruan eksis sekarang film selalu baru beberapa studio sedia tempat memang sulit cari area ruko ruko pinggir jalan utama kota pasuruan
+layan sangat cepat ramah puas pelanggan sini
+urus harga sangat jangkau banget fasilitas
+tempat punya layan buruk tengah jam film joker datang new star cineplex pasuruan kemudian lihat beberapa karyawan sedang asyik makan rujak sama kemudian salah satu layan pesan tiket paksa beli tiket minum entah apa alas lalu beri tiket tukar minum mau tukar tiket sebut karyawan malah terus makan rujak sama panggil salah satu tidak respon sama sekali kemudian tunggu selesai makan rujak sangat tidak siap tidak sopan makan depan langgan film segera mulai apa sana tidak jam istirahat memang jam istirahat kurang tidak tahu harap baik layan new star cineplex pasuruan belum pernah alam kota kota
+beberapa tonton sini lokasi dekat rumah orang tua semua fasilitas cukup baik bersih toilet ruang tunggu cukup baik studio kurang banyak jadi jadwal film tayang batas semoga tambah jumlah studio depan
+kalau banding bioskop belah beda new star cineplex pasuruan jauh kembang lebih baik banding kondisi belum film film putar kadang lumayan baru jadi perlu khawatir tinggal film sedang tren putar serentak baik film indonesia maupun mancanegara akhir akhir lebih sering putar film indonesia fasilitas kamar mandi toilet makan bioskop jual makan ringan ringan maupun pop corn
+harga lebih murah banding bioskop
+setara cineplex harga sedikit lebih mahal
+tempat bersih nyaman film bagus sekali
+bioskop kota film ikut tren fasilitas kursi lampu lantai tunjuk arah baik kursi waktu ganti waktu pertama masuk ruang rasa bau bentar doang layar lah kalau pixel tambah
+cineplex pasuruan rupa bioskop lama kemudian buka lantai tempat jual karcis makanan ringan makanan ringan sedia tidak terlalu lengkap teater film cukup tanggal
+buat tinggal wilayah kabupaten pasuruan probolinggo new star cineplex pasuruan rupa buah jawab nikmat cinta film unggul fasilitas parkir cukup luas aman fasilitas kafe nyaman area belakang dukung video suara dolby keliling fantastis makan pusat area akses kendara umum sangat mudah dekat stasiun kereta api terminal lama ruang tunggu nyaman putar film baru toilet bersih nyaman kursi tonton nyaman terdapat musala tidak perlu jauh malang surabaya kurang gedung teater belum imax
+harga tiket masuk sangat jangkau
+kurang cekat layan waktu aku tonton dilan awal film belum tayang beli pop corn studio kata antar ternyata lama sekali tengah film dilan baru antar aku komplain tugas kalau gak gak datang film selesai gak antre beli beli dulu akhir beli akhir
+satu teater pasuruan cuma satu satu gedung bioskop kota pasuruan fasilitas perlu tingkat ruang tunggu tempat duduk tunggu sangat kurang tempat parkir kurang harga mungkit lebih murah kualitas nyaman tonton sangat kurang semoga saran manfaat
+tempat pasuruan tonton film jadwal tidak terlalu baru film luar negeri tidak terlalu booming atm bca jalan masuk parkir luas mobil motor harga parkir standar kota pasuruan dekat jalan besar rumah makan studio
+harga makan standar harga bioskop
+sayang wajib pakai kupon minum kata promo fruit padahal bunda jual cuman kalo cari duit belum pas tonton sedikit alih alih masalah film batal tayang coba kalo tempat tonton kota pasuruan cuman pasrah
+tempat lumayan bagus
+harga tidak beda jauh bioskop kelas atas fasilitas jauh beda jadi pilih tidak luar kota cocok rasa alam tonton bioskop paksa tidak sempat kota besar tipe orang sebut belum tidak terlalu rekomendasi
+hati kualitas layar suara warna akurat kecerahan karuan suara pecah tonton lebih nyaman lihat gambar suara jernih ketimbang tempat bersih nilai harga hampir sama bioskop kelas semoga cerah
+kota kecil lega rasa tahu kota punya bioskop film baru putar bioskop baik jadwal film situs cari google sinkron jadwal tempat baik masyarakat pasuruan lebih hormat sama tonton tonton tonton akhir bolak balik balik terus tunduk kepala berisik banget tonton tidak jelas tukang parkir mobil pungut bayar
+bioskop satu satu pasuruan beli tiket paket minum tera harga tiket aneh sekali
+tempat cukup bersih kalo tingkat banyak ruang kasih tempat ibadah musala mungkit taman belakang perlu tata ulang saran jadi jauh bagus semua
+satu tempat tonton pasuruan jauh lebih baik banding bioskop dulu layan baik ramah
+nyaman serasa samping bioskop harga saing kompetitor tidak jamin puas langgan kursi kurang nyaman layar tak kunjung baru jadi kendala utama
+hati modus paksa pegawai tiket beli makanan ringan kupon bayar harga tiket sesuai tera tambah kupon paket minum sila tidak jangan mau
+tempat lebih oke punya tingkat studio tempat duduk layar
+cuman harga tiket satu kelas cineplex kurang sesuai cineplex kota besar malang surabaya sidoarjo harga tiket lebih murah sini khusus akhir pekan kalau pas panjang akhir pekan tiket khusus harga libur
+harga lebih mahal termasuk sama ringan minum pilih cuman air mineral sama teh kotak padahal banner mcem stok belakang kasir banyak sama kasir cuman kasih pilih alas habis pilih film putar beberapa bulan cuman film indonesia
+ku usah orang paksa beli tiket tonton lebih mahal paket sama minum biar orang pilih beli minum makanan ringan gitu semoga manfaat masuk
+layan tidak puas pesan tiket tonton minimal isi orang baru pesan tiket tahu tidak atur bioskop
+kamar mandi jorok sabun kamar mandi bersih
+toilet kotor kedai habis air mineral bawa makan luar tempat duduk kurang nyaman bersih tidak sesuai harga tiket
+suara minimal harga terlalu mahal banding bioskop lebih murah fasilitas nyaman penuh musik sini tidak musik sama sekali tunggu teater buka teater
+toilet makan pop corn jagung lengkap kurang area parkir musala jangan khawatir tugas parkir siap sedia tata parkir
+bioskop film kini murah habis ruang elegan
+makin benah layan fasilitas toilet perlu renovasi
+harga tiket relatif terjangkau warga kota kecil
+jadwal film media sosial asli ubah ubah hari turut turut mau tonton gagal kata kurang orang minta informasi sedia tiket lewat whatsapp tidak respon bagaimana tahu film tonton apa tidak kecewa
+kurang nilai lah harga sama bioskop belah harga gitu lah subjektif kadang orang berisik film langsung jadi nikmat rasa film mungkit terlalu antusias bioskop mungkit rasa cuma doang lihat
+film kurang lengkap studio meski kecil cukup nyaman kalau tonton sana maksimal orang baru film putar cukup sepi
+tempat tonton pasuruan murah
+tempat biasa layar bioskop noda kualitas suara kurang
+harga tiket wajib tambah kupon minum jatuh mahal
+mulai lengkap baru film
+harga jangkau banget lengkap bonus minum teh
+meski tonton tidak penuh film tetap tayang
+suara kurang mantap sering mati listrik pas tengah tengah film
+film film baru gak beda sama kota besar surabaya minus suara kurang sama kurang kedap hujan deras dengar cukup ganggu fasilitas dukung minimal
+kamar mandi rusak dulu pernah benah ac ruang ganggu banyak mati semua kualitas gambar buruk harga sangat tidak nilai
+selalu baru film jadi tidak perlu jauh luar kota
+satu teater pasuruan sedia hibur warga kota film baru bagus booming putar beberapa tidak interior nyaman studio harga pukul
+bioskop satu kota pasuruan suka monopoli harga harga sering ubah ubah tidak sesuai media sosial
+media sosial jarang aktif jadi susah lihat baru film tayang
+bangku banyak rusak ac tidak dingin kualitas suara kurang bagus film cukup baru mending tonton film keluar kota
+banget pasuruan bioskop teater lama jadi kursi lumayan jelek film lumayan tanggal
+layan pegawai puas
+harga tiket masuk murah
+bioskop paling kecewa pernah kunjung langgan paksa buat beli minum paket tiket gak nilai sama sekali terima kasih
+tempat lumayan lah wilayah daerah penting jangan banding sama sini parkir lumayan restoran buat tunggu film tayang makan cuman kalo jalan raya tempat lihat
+tuju langgan tambah harga tiket besar rupiah kadar ringan minum padahal suka
+tidak terlalu bagus banding cineplex kota benar murah wajib beli tiket paket termasuk makanan ringan jadi mahal
+lumayan tonton harga tiket standar lokasi mudah akses kualitas gambar lumayan semoga layar lebih lebar ac lebih dingin
+satu satu bioskop kota pasuruan bangil teater film tanggal gedung tua fasilitas parkir sempit tidak makan tempat
+tonton sini waktu puasa gak beri informasi habis tonton toilet waktu mau keluar pintu kunci alhasil kancing kalau gak smp orang film gak putar suara oke hampir bln putar film indonesia
+satu bioskop pasuruan tempat lumayan nyaman kok harga jangkau akhir pekan tonton aadc
+tempat salat sempit sekali padahal kamar mandi besar mungkit halaman belakang kosong renovasi kalo cineplex pasuruan punya dana
+tempat lumayan film
+harga tiket gak sesuai paksa tambah buat minum
+layan kurang bagus kurang puas harap baik lebih baik satu bioskop kota pasuruan
+fasilitas kurang bagus kurang puas harap baik lebih baik satu bioskop kota pasuruan
+satu bioskop kota pasuruan film cukup tanggal pilih khusus masalah film fasilitas khusus tempat duduk perlu benah beberapa banyak rusak
+parkir luas jual makanan ringan minum kursi kurang nyaman suara kurang bagus kadang layar terlalu gelap kadang tidak
+harga tiket murah
+bioskop kota pasuruan akses lokasi mudah temu film putar besar rupa film kotak kantor sedang tayang film pilih sangat tarik tonton
+harga tiket terlalu mahal kualitas tampil bioskop buram
+beli tiket terlalu paksa paket minum pop corn
+tempat oke minimal tonton orang orang pasuruan gak terlalu suka tonton sering jadi tonton kurang tonton
+film baru harga tiket jangkau perlu tambah fasilitas lebih nyaman
+tonton cuma orang film tetap putar
+kalau cari bioskop sini harga cantum banner sama kasir bakal beda tipu turut gak layaka sini bukan tempat tonton sini bakal jadi tempat duit kalian hilang
+lumayan kualitas bawah cuman tonton wajib beli teh minum mineral wajib paksa
+lumayan satu bioskop pasuruan sayang tayang film kurang baru kalau tambah jumlah studio
+harga tiket mahal kelas gitu
+kontras gambar kurang bagus tonton lcd proyektor
+harga tiket resmi website bayar kasir kupon minum teh kotak mineral
+lumayan bagus tnya
+kalau senin parkir paksa beli teh kotak
+lumayan bioskop satu satu semoga bangun gede bagus punya parkir sendiri biar gak ribet parkir
+tempat tonton keluarga fasilitas sangat cukup kafetaria tidak jual nasi kalau tonton wajib beli air putih
+harga tiket paket minum padahal tidak semua minum tersebut
+film cukup baru tidak tinggal film baru
+kecewa suasana bawah tempat meja lihat kayu triplek jalan keluar studio panas
+wajib beli kupon minum payah
+tempat tonton rekomendasi kota pasuruan tempat aku sama adik ku punya alas buat keluar jalan jalan tempat teriak bebas takut pas tonton film horor
+tempat bersih studio film selalu tanggal
+ramah sangat puas
+harga tiket masuk kupon minum
+bioskop baru cuman sedia bioskop
+satu satu gedung bioskop kota pasuruan tempat strategis gedung bioskop jaga rawat
+harga kualitas layar suara banding
+lumayan gak pakai antre
+bioskop murah kualitas
+kursi tunggu kurang banyak bila suasana ramai rebut tunggu diri
+bioskop paling murah pernah datang hari biasa hari biasa
+tempat bersih nyaman
+layan baik cepat
+tempat bagus titip barang tinggal tonton
+saran jangan wajib beli makanan ringan
+lumayan tempat paling enak tonton pas jam kerja gak terlalu ramai jadi pilih tempat duduk
+harga murah
+tonton film milly mamet lumayan new star cineplex
+karyawan berisik film mulai sering keluar masuk ruang teater ketawa mau tonton gratis bagaimana kok ganggu kunjung
+nyaman tempat rapi
+tempat bagus
+studio lebih banyak jember tiket kupon minum paksa beli minum
+bioskop andal tempat nyaman layan nyaman aman parkir jamin menu camil tarik
+satu bioskop kota pasuruan studio lumayan baru film meski lebih sering film indonesia masuk daftar
+gedung lumayan cuma kurang lebar film baru
+kalau layan pegawai cukup bagus
+toilet rusak semoga depan baik lebih
+jadwal tempat tidak sama jadwal tera internet
+satu satu tempat tonton film baru kota pasuruan tiket jangkau
+parkir nyaman aman
+jadi pernah alami putar film tadi suara tidak sangar kecil mungkit masalah baik jadi jauh jadi bagus
+jadi bioskop kota buat manajemen ceroboh sana tidak kompetitor tiket mahal banding fasilitas beri
+tempat masuk area ruko bca lama kalau lewat samping tidak lihat lokasi peta baik lewat jalan raya bioskop hadap jalan
+harga tiket mahal tambah kupon minum satu paket sama tiket wajib beli
+film putar selalu baru tempat lumayan studio cuman seluruh oke lah
+kamar mandi flush nyala shower gak nyala gak air parah banget cukup sekali
+tempat enak nyaman cuman jual makan kurang
+film bagus baru interior bagus ac adem
+sayang parkir buka panas kalo siang hr
+cuman studio tambah satu biar kalo banyak film masuk jam tayang gak tengah hari
+lumayan hibur tol toilet jorok segera renovasi sering kontrol
+kok telepon pesan tiket soal orang luar kota takut habis kecewa datang jauh jauh habis mohon hati kak
+tempat jauh baik awal buka tempat nyaman ac adem tempat duduk enak
+layan jauh baik awal buka
+harga jangkau wilayah pasuruan
+karpet lihat depan banyak remah kamar mandi kurang bersih bersih ruang ber ac karyawan banyak
+bioskop tampil film film keren kota pasuruan tempat nyaman cocok buat tonton bareng teman pacar
+layan baik
+murah pesan tiket minum
+kualitas studio sesuai uang keluar bagus
+kursi gak enak pilih film gak aliran anak bioskop paling dekat
+salah satu bioskop pasuruan mungkit perlu renovasi beberapa titik kamar mandi atap
+tempat lumayan bagus tonton bareng keluarga pacar teman gedung bioskop mantap habis
+lah bioskop film baru meski tempat gak mewah banget urutan harga
+layan sangat tidak ramah
+satu satu gedung bioskop tetap tahan kota pasuruan film tayang bagus baru
+lumayan buat lihat bioskop belum kedap betul suara standar
+kalau antre panjang lebih arah bukan biar soal tempat tidak luas jadi lebih hati biar tidak pintu utama
+harga bioskop beda banget sama bioskop sini harga bener jangkau
+fasilitas bagus
+berangkat hujan malah film mangkujiwo gak jadi tayang alas tidak masuk akal
+jenak lepas penat tonton film film baru cukup modern kota kecil
+baik kota pasuruan bioskop komplit cuman sini
+baru pertama konsumen paksa beli minum kelas tidak pernah paksa konsumen beli minum
+bioskop bagus ruang enak sepi kunjung tempat kok gak tunjuk kalau bioskop
+musala kecil
+jam kalo magrib mohon jangan mepet soal salat dulu tayang
+makin tanggal sama film baru semoga makin banyak bangun fasilitas anak mudah pasuruan
+layan kurang tarik antre terlalu panjang sedia tiket online lebih kurang antre terima kasih
+jadi bioskop satu satu kota pasuruan tempat cukup bagus kumpul mudah mudi
+toilet masalah jadi bau toilet bersih kunjung rasa nyaman jangan lupa bersih toilet
+film cukup baru baru kalau dulu film lawas sekarang ikut film baru
+bioskop satu satu pasuruan semoga depan fasilitas baik utama tempat duduk lebih nyaman
+selalu baru jadi alternatif pilih domisili probolinggo lumajang pergi surabaya malang
+kursi tidak baik sangat sayang satu bioskop pasuruan
+layar kurang lebar kursi kurang nyaman
+harga tiket cukup mahal fasilitas kurang bagus
+bioskop kota kecil lumayan sekarang lebih bagus studio bagus dulu
+tempat nyaman
+bersih tempat duduk perlu hati lebih mantap
+tiket lebih murah bioskop mall
+sayang batas tempat duduk rusak patah
+tempat bagus sangat rekomendasi ayo warga pasuruan ramai new star cineplex
+suara layar studio kurang mantap tidak studio gelegar
+parkir susah tidak punya lahan parkir sendiri ambil tempat parkir milik toko toko dekat sana
+layan kasir buruk gak senyum gak ucap terima kasih jauh lebih baik layan tukang parkir
+tempat strategis meski kecil bersih nyaman
+tempat oke banget buat tonton bareng sahabat teman gebetan kalian kamu
+tugas ramah selalu kasih saran ulasan singkat film tonton
+kecewa bawa makan luar harga makan rada mahal
+bioskop nyaman pasuruan dekat mana
+harga jangkau
+tempat bagus nyaman tonton film kecewa kecerahan kurang
+harga naik kalau tonton pasuruan lumayan soal perlu jauh
+pilih film tanggal
+harga tiket cukup mahal
+kursi sedikit kotor
+tempat nyaman
+tiket murah
+sayang makan gitu doankdan mahal sedikit harga
+lihat hobbs shaw batal putar rusak baik tiket penuh
+bagus kalau lihat film selalu kesini kurang suka udara terlalu dingin
+bioskop bagus perlu tambah toilet umum
+selama hampir tahun pasuruan baru masuk cineplex pasuruan nyata lumayan
+ruang tunggu nyaman dekat jalan raya parkir luas
+tiket tidak antre
+harga terjangkau
+tempat relatif lebih sepi enak buat tonton bareng ramai ramai keluarga
+beberapa tonton kursi kurang nyaman oke lah
+parkir cukup luas fasilitas cocok kalian suka tonton film bioskop
+film cukup baru enak tonton gak terlalu banyak jadi enak kalau tonton gak terlalu berisik
+cineplex penuh ac satu satu kota pasuruan film cukup baru sama kota malang surabaya
+oke cuma makanan mahal semua harga lipat luar
+lumayan tonton sini harga murah film baru sesuai jaring cineplex
+lebih bagus dulu tambah studio jadi lebih banyak pilih film
+tempat sangat nyaman fasilitas sangat
+sambut karyawan kunjung sangat baik
+karyawan jaga tiket tidak ramah sinis
+pasuruan punya bioskop sendiri patut acung jempol harga jangkau
+film baru
+lumayan tempat
+nomor telepon gak sambung whatsapp kelola kurang profesional mau untung gede kota kecil
+per agustus naik jadi nilai akhir pekan kualitas gambar redup
+lumayan cuman suara kurang mantap cukup puas
+jam tayang tiap hari ubah hari film jam besok film jam besok jam
+rekomendasi sama sekali tonton wajib beli paket pop corn jagung
+kurang bersih gedung tonton kurang bersih toilet
+kurang layan tugas tiket
+semoga depan makin waktu film kota kota semoga tambah lebih baik
+area luas studio kafe ruang tunggu asik buat foto
+murah
+tempat lumayan lah film selalu baru kok
+cukup bagus cuma harga tiket kadang tambah minum
+film baru meski letak kota kecil pas rekreasi jenak
+jelek suara
+tempat perlu rawat ayo dukung sama tonton ayo tonton sini
+tempat lumayan nyaman kalo film tambah sedikit
+tempat duduk perlu baik layar perlu baharu
+harga tiket lumayan
+nyaman tempat enak makan
+tempat nyaman bagus sekarang banyak film paling baru putar
+bioskop sering mati lampu film macet tidak bagus rekomendasi film pecinta
+tempat bagus
+sayang kurang informasi media sosial jam tayang film
+tempat bagus sayang studio dekat soal suara studio samar samar dengar
+tempat bersih cuma studio batas seluruh bagus
+kursi terlalu dekat depan depan rasa tidak nyaman
+layan tidak ramah
+film baru lumayan nyaman tonton pasuruan
+lumayan bagus lokasi masuk ruko jadi sulit lihat jalan raya
+layan bagus
+kursi empuk makan enak tidak mahal suara sistem tidak berisik
+film baru sayang kursi rusak
+sangat bagus tempat lihat film kecil kota tempat paling bagus tonton film kota kecil
+tonton jadi lebih dekat tempat tinggal tayang film selalu baru
+tonton film gak perlu jauh warga pasuruan film tanggal
+harga tiket terlalu mahal fasilitas
+kualitas suara lebih tingkat biar mantap
+kualitas bagus ramah
+lumayan kota kecil pasuruan film baru selalu baru
+lumayan penting harga murah film baru
+satu satu cineplex kota pasuruan suasana bagus bersih
+harga tinggi tidak sesuai layan fasilitas
+bersih toilet umum perlu hati lebih tingkat
+tempat nyaman bersih nikmat waktu sama keluarga
+layan lumayan ramah cuma kalau telepon lambat respon
+studio bersih
+tempat biasa bangku empuk film tinggal bioskop kota besar
+kecewa mau tonton gak alas kurang tonton
+kursi empuk ruang mantap sayang suara kurang gelegar
+bersih
+tempat tonton murah satu pasuruan apa mana
+film baru
+sayang paksa beli minum
+bagus pesan tempat bayar cukup tarif rumah
+tempat tonton lumayan nyaman
+tiket murah cocok hipster
+kursi kurang nyaman suara tidak dolby keliling ac kurang dingin
+jadwal sering ubah ubah beri tahu
+sekarang tiket tengah pekan sangat mahal
+bersih bagus nyaman bioskop taraf nasional
+tempat bagus enak bersih
+tidak tempat minum kursi
+film cukup tanggal parkir luas bersih
+bagus film ikut kembang dunia per film
+film cukup baru
+bagus layan
+karyawan dekat pintu masuk sering buka tutup pintu sangat ganggu
+satu satu bioskop kota pasuruan bersih tenang nyaman
+tempat bagus
+toilet umum butuh baik
+layan kurang baik tugas tiket suka bentak langgan
+tempat oke bersih rapi
+harga tiket akhir gak masuk akal
+selalu baru film film baru gak pernah tinggal
+tempat bersih lebih biasa
+suara kurang mantap
+tempat nyaman
+harga makan ringan sedikit mahal
+tempat bagus
+film kurang baru
+film selalu baru
+ruang kurang bersih
+tayang film baru pasar bagus kerja sukses selalu
+karyawan sangat tidak profesional keluar masuk studio suka sangat ganggu
+harga mahal layan ukur layar bawah rata rata
+beli tiket gratis minum sayang air mineral
+aman tempat kurang tidak atur
+bioskop kurang sedikit nyaman
+pegawai karyawan perlu lebih sering senyum kunjung
+harga sama kota mohon baik fasilitas
+pop corn terlalu mahal
+mantap nyaman legawa
+senang suasana ramai lokasi bersih asri
+tonton film cineplex pasuruan hibur murah enak
+beberapa harga tiket tidak sama cantum google
+tempat bagus sangat jaga bersih
+bagus murah semoga lebih banyak film
+paling pasuruan punya bioskop jangkau tiket
+selalu tampil film baru
+tiket murah
+baik pasuruan mohon rawat kursi beberapa patah tangan
+harga ber ubah ubah datar
+lumayan buat kadar tonton tempat bersih
+tempat bersih bagus buat foto
+bersih jaga betah kalo tunggu
+toilet kurang rusak tidak segera benah
+tempat nonton bareng bareng istri harga hemat tonton kelas
+tempat tonton nyaman baik keluarga maupun kaulah mudah
+oke murah
+mungkit layan lebih tingkat
+studio baru kursi sempit
+nyaman aman bersih jaga
+karyawan ramah
+sempat kesini gak jadi tonton omong omong tempat bagus bersih nyaman
+film selalu baru pakai dolby
+senang sekali layan cepat
+studio pengap mungkit jadi bahan evaluasi
+film tanggal semua
+oke tempat mbak semoga lebih ramah
+nyaman lah alternatif hibur pasuruan
+tempat lumayan nyaman
+lebih bagus tahun lalu harga mahal
+karyawan tiket lebih supel
+bersih kreatif indah pas bioskop
+kadang jadwal website gak sesuai tambah studio
+toilet kurang dukung
+kurang nyaman ac selalu dingin
+tempat keren banyak baik
+cukup nyaman
+sayang makan minum mahal
+lumayan enak makan minum gak sedia
+kamar mandi kotor
+tempat duduk kurang nyaman ac tidak dingin
+layan bagus
+tempat tunggu enak nyaman
+untung bioskop baru kota kecil pasuruan
+film baru harga pas kantong
+lumayan tempat fasilitas
+kualitas suara perlu baik sesuai
+tempat sangat nyaman selalu baru
+nilai tempat bersih nyaman
+bagus tempat
+murah harga tiket
+lumayan murah kalang tengah bawah
+lumayan baru terus film
+film selalu baru tempat nyaman
+mahal tiket lebih baik
+tempat oke baru film cepat
+oke mdhan kursi tonton nyaman
+tempat tonton bioskop cukup nyaman
+tempat bagus tonton kota pasuruan
+kursi banyak rusak gak empuk
+film tanggal
+sesuai kantong murid
+bioskop bagus harga tiket murah
+film gak baru mahal tidak sesuai fasilitas
+layan baik
+kunjung banyak sampek wifi banyak
+keren sekarang film film baru
+kursi rusak waktu baik
+lumayan kualitas gambar perlu baik
+tempat tonton bagus nyaman
+cukup nyaman tempat masuk
+nyaman
+menu saji sesuai
+bioskop mantap nyaman pasuruan
+bioskop nyaman
+parkir kurang mobil
+harga tiket ubah tempat
+film bagus tempat bersih
+tempat lumayan
+harga jangkau
+lumayan lah tempat enak
+dingin banget ac
+harga tiket mahal
+beli paket minum payah
+tempat nyaman
+layan bagus
+bersih tenang bagus suara
+layan ramah
+film baru
+keren pasuruan nyaman
+nyaman
+bioskop nyaman
+film baru lumayan
+tiket murah
+tempat nyaman
+nyaman film baru
+kursi rusak
+lumayan fasilitas sedia
+salon perlu baik
+mahal fasilitas
+layar jelek nyaman pokok
+minimal kursi buat tunggu
+film film sangat baru
+bioskop bersih sekali
+bagus tempat film baru
+tempat elit bersih
+mahal sekali tidak nilai
+tempat tonton bagus pasuruan
+film bagus bagus
+nyaman bersih toilet mohon jaga
+suara kualitas gambar kurang bagus
+tinggal toilet bagus
+film baru
+nyaman french fries enak
+kualitas toilet sangat buruk
+seru sayang kursi licin
+harga tiket terlalu mahal
+film film bagus
+layan kasir tidak senang
+toilet rusak
+cukup nyaman buat tonton
+tempat duduk tidak bagus
+tempat bersih
+dekat rumah film baru
+tempat nyaman buat tonton
+nyaman bersih
+film selalu baru
+film selalu baru
+aku suka tempat
+bersih nyaman sini
+film baru sekarang
+kursi sangat tidak nyaman
+sedikit mahal banyak
+bioskop pasuruan tanggal film
+jadwal online kurang ramah
+harga tiket konsisten
+tempat lumayan bagus
+kurang dingin ac
+cukup bersih tempat
+tidak kedap suara
+film selalu baru
+tempat sangat indah kagum
+film gak baru
+tak perlu antre panjang
+layan sangat baik
+tempat tonton film nyaman
+kurang bagus fasilitas
+tempat makin bagus
+layan kurang oke
+tempat tonton bagus
+kursi jebol
+layan kurang ramah
+nyaman banget
+suara payah
+makin bagus tempat
+film baru
+nyaman
+tempat bintang
+layan bintang
+tempat duduk tidak enak
+putar film baru
+fasilitas belum lengkap
+nyaman
+ruang tunggu lumayan
+layan sekarang kurang
+tempat
+lumayan baru
+tempat bagus
+tempat cukup representatif
+pop corn enak
+tempat nyaman
+pegawai keluar masuk
+tempat kecil
+layan bagus
+baru terus film
+bersih sejuk
+tempat bagus
+tempat kumuh
+bagus nyaman
+murah
+tempat bersih nyaman
+film tanggal
+sofa baru
+bagus murah
+layan makin anjlok
+bagus murah
+studio cuma
+tempat sembunyi
+nyaman
+bersih
+adem
+tempat nyaman
+bioskop bagus film tanggal suara lumayan nilai nikmat film sini
+bioskop kalah bagus sama film tanggal
+toilet masalah jadi bau toilet bersih kunjung rasa nyaman jangan lupa bersih toilet
+bioskop paling murah pernah datang hari biasa hari biasa
+tempat bersih nyaman
+layan baik cepat
+ku usah orang paksa beli tiket tonton lebih mahal paket sama minum biar orang pilih beli minum makanan ringan gitu semoga manfaat masuk
+semoga tahan kota pasuruan harga relatif mahal kunjung tonton beli minum
+hari hari akhir tonton new star cineplex layar studio kurang enak mata gelap kualitas kurang bagus harga tiket
+sekarang kalau beli tiket orang lebih beli tiket minimal tayang orang
+suara minimal
+harga terlalu mahal banding bioskop lebih murah fasilitas nyaman penuh musik
+sini tidak musik sama sekali tunggu teater buka teater
+bagus kota pasuruan kalo banding sama bioskop cgv jelas kalah harga terlalu mahal kota kecil pasuruan makan pop corn kentang tiket gabung minum
+satu satu bioskop kota pasuruan tempat nyaman parkir luas suasana studio bagus nyaman film film tanggal
+tanya tanya jadwal film lewat whatsapp cepat respon
+nomor telepon gak sambung whatsapp kelola kurang profesional mau untung gede kota kecil
+besar tidak bioskop kecewa tiket wajib kunjung beli tiket paket minum tidak semua orang kunjung minum beli minum kunjung hari minggu tiket film harga rupiah paksa beli tiket paket minum harga rupiah minum pilih air mineral botol teh kotak komplain kalau tidak pakai minum bagaimana tugas bilang tidak padahal depan tiket beri tahu kena harga film harga paket paket minum baik kunjung bebas pilih beli tiket film tiket paket paket minum
+kursi bioskop keras kurang nyaman jadi mohon hati lah new star cineplex pasuruan
+bioskop satu kota pasuruan cukup nyaman aman
+cuman kurang dingin ruang seluruh bagus tempat
+harga tiket mahal kelas gitu
+kontras gambar kurang bagus tonton lcd proyektor
+tempat lumayan film
+harga tiket gak sesuai paksa tambah buat minum
+kualitas suara banget kecil cenderung mati akhir
+lebih parah teknisi baik berisik teriak kencang banget teknisi satu ruang monitor masa buat atur jangan berisik langgar sendiri kalian ganggu tonton banget suara suara kecil tambah ria kalian bikin gak konsentrasi tonton punya atur sedikit lah semoga jadi hati milik bisnis depan
+layan kurang tarik antre terlalu panjang sedia tiket online lebih kurang antre terima kasih
+gedung lumayan cuma kurang lebar
+kalau layan pegawai cukup bagus
+film baru
+satu bioskop pasuruan tempat lumayan nyaman kok harga jangkau akhir pekan tonton aadc
+tua bangunan permata kecil kota film cukup tanggal meskipun tidak punya banyak teater tidak salah tempat cukup rapi
+kurang cekat layan waktu aku tonton dilan awal film belum tayang beli pop corn studio kata antar ternyata lama sekali tengah film dilan baru antar aku komplain tugas kalau gak gak datang film selesai gak antre beli beli dulu akhir beli akhir
+satu bioskop kota pasuruan studio lumayan baru film meski lebih sering film indonesia masuk daftar
+tempat masuk area ruko bca lama kalau lewat samping tidak lihat lokasi peta baik lewat jalan raya bioskop hadap jalan
+tempat tonton keluarga fasilitas sangat cukup
+kafetaria tidak jual nasi
+kalau tonton wajib beli air putih
+layan kurang bagus kurang puas harap baik lebih baik satu bioskop kota pasuruan
+fasilitas kurang bagus kurang puas harap baik lebih baik satu bioskop kota pasuruan
+satu tempat tonton pasuruan harga jangkau lah sekarang wajib beli minum gabung sama tiket jadi total
+ruang tonton lumayan lah film baru sayang toilet kotor parkir luas
+bioskop tampil film film keren kota pasuruan tempat nyaman cocok buat tonton bareng teman pacar
+film tayang kalau jumlah tonton lebih orang
+tiket surabaya bahkan lebih pasuruan bioskop cuma bayar lah
+harga tiket wajib tambah kupon minum jatuh mahal
+tempat biasa layar bioskop noda kualitas suara kurang
+tempat bagus studio lebih banyak jember
+tiket kupon minum paksa beli minum
+tempat lumayan bagus
+sayang wajib pakai kupon minum kata promo fruit padahal bunda jual cuman kalo cari duit belum pas tonton sedikit alih alih masalah film batal tayang coba kalo tempat tonton kota pasuruan cuman pasrah
+film kurang lengkap
+studio meski kecil cukup nyaman
+kalau tonton sana maksimal orang baru film putar cukup sepi
+bioskop satu satu pasuruan beli tiket paket minum tera harga tiket aneh sekali
+baru bioskop buat capek hati pertama datang tidak tonton satu aku akhir gak tayang aku balik pulang gak jadi tonton terus beberapa hari kemudian aku balik lumayan banyak tonton tipu aku beli tiket terus mbak tanya mau minum apa aku bilang tidak perlu mbak betul habis makan mbak bilang sama minum gak sama minum harga sama mbak oke aku pilih teh kotak struk total nama tipu struk tiket sama minum beda padahal harga tiket cuman aku beli tiket total cuma nama paksa konsumen cara tipu memang bijak bagaimana lama aku tonton mana gak pernah gini gak bakal balik kalo cara gini
